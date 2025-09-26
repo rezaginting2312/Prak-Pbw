@@ -1,0 +1,24 @@
+# Praktikum 1: Aplikasi PHP Dasar - Form Pendaftaran Event
+
+Aplikasi ini dibuat untuk memenuhi tugas praktikum dasar PHP. Aplikasi ini merupakan form pendaftaran sederhana untuk sebuah event fiktif.
+
+## Deskripsi & Fitur
+Aplikasi ini mencakup implementasi dari beberapa konsep dasar PHP, yaitu:
+- *Variabel, Global Variabel, dan Konstanta*: Untuk menyimpan data dan konfigurasi.
+- *Fungsi*: Digunakan untuk modularisasi kode, khususnya untuk validasi.
+- *Penanganan Form (POST)*: Menerima dan memproses data yang dikirim dari form HTML.
+- *Validasi dengan Regex*: Memastikan format input email dan tanggal lahir (DD-MM-YYYY) sudah benar.
+- *Operasi File*: Menyimpan setiap pendaftar yang valid ke dalam file pendaftar.txt.
+- *Menampilkan Data*: Membaca data dari pendaftar.txt dan menampilkannya dalam bentuk tabel.
+
+## Tampilan Aplikasi
+
+*Tampilan Awal Form*
+<img width="1919" height="1079" alt="Screenshot 2025-09-26 105035" src="https://github.com/user-attachments/assets/bf021bb5-f4af-4c6d-ad44-3bb22024443a" />
+
+*Tampilan Setelah Pendaftaran Berhasil*
+<img width="1913" height="1074" alt="Screenshot 2025-09-26 102223" src="https://github.com/user-attachments/assets/4b7a0178-ddcf-46e0-bef9-d1a16a8b6761" />
+
+
+*Contoh Pesan Error Validasi*
+<img width="1911" height="1079" alt="Screenshot 2025-09-26 105003" src="https://github.com/user-attachments/assets/1b018fe8-eba0-4fcb-8f4e-0454aada4f8b" />
